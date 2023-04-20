@@ -1,0 +1,21 @@
+# query GetCustomObjects($container: String, $id : String) {
+#   customObjects(container: $container) {
+#     results {
+#       id
+#       container
+#       key
+#       value
+#     }
+#   }
+# }
+
+query GetCustomObjects {
+  customObjects(container: "company") {
+    results {
+      id
+      container
+      key
+      value
+    }
+  }
+}

@@ -1,0 +1,8 @@
+query GetCompanyByID($key: String) {
+  customObject(container: "company", key: $key) {
+    id
+    container
+    key
+    value
+  }
+}

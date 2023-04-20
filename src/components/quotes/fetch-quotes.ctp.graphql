@@ -1,0 +1,9 @@
+mutation CreateCustomObject($container: String!, $key: String!, $value: Json!) {
+    createCustomObject(draft: {container: $container, key: $key, value: $value}) {
+      id
+      version
+      container
+      key
+      value
+    }
+  }
