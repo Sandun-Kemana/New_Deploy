@@ -5,15 +5,15 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  */
 const config = {
   name: 'Starter 4436ea',
-  entryPointUriPath,
+  entryPointUriPath: 'avengers2',
   cloudIdentifier: 'gcp-au',
   env: {
     development: {
       initialProjectKey: 'custom_project',
     },
     production: {
-      applicationId: 'TODO',
-      url: 'https://your_app_hostname.com',
+      applicationId: 'clgp4fmdm0002v801k8odg4vo',
+      url: 'https://new-deploy-vert.vercel.app/',
     },
   },
   oAuthScopes: {
