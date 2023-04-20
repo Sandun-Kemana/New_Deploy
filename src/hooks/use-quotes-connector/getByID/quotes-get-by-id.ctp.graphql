@@ -1,0 +1,8 @@
+query GetQuotesByID($key: String) {
+  customObject(container: "quotes", key: $key) {
+    id
+    container
+    key
+    value
+  }
+}

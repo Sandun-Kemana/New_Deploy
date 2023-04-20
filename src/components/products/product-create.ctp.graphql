@@ -1,0 +1,15 @@
+# Define a mutation for creating a new product
+mutation CREATE_PRODUCT($input: ProductInput!) {
+	# Call a mutation field with the input argument
+	createProduct(input: $input) {
+		# Specify the fields you want to return from the created product
+		id
+		name
+		description
+		category
+		attributes {
+			color
+			size
+		}
+	}
+}

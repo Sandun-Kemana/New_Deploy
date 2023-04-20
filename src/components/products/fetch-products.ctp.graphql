@@ -1,0 +1,11 @@
+query FetchProducts {
+  products {
+    total
+    count
+    offset
+    results {
+      id
+      masterData
+    }
+  }
+}

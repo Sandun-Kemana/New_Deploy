@@ -1,0 +1,10 @@
+mutation deleteCustomObject($container: String!, $key: String!, $value: String!) {
+  deleteAuthor(container: $container) {
+    results {
+      id
+      container
+      key
+      value
+    }
+  }
+}
