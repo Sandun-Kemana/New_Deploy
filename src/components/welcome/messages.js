@@ -38,7 +38,7 @@ export default defineMessages({
   },
   cardCompaniesTitle: {
     id: 'Welcome.cardChannelsTitle',
-    defaultMessage: 'Fetching Companies',
+    defaultMessage: 'Companies',
   },
   cardCompaniesContent: {
     id: 'Welcome.cardChannelsContent',
@@ -47,7 +47,7 @@ export default defineMessages({
   },
   cardQuotesTitle: {
     id: 'Welcome.cardQuotesTitle',
-    defaultMessage: 'Fetching Quotes',
+    defaultMessage: 'Quotes',
   },
   cardQuotesContent: {
     id: 'Welcome.cardQuotesContent',
