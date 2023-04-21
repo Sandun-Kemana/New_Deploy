@@ -13,7 +13,7 @@ const config = {
     },
     production: {
       applicationId: 'clgp4fmdm0002v801k8odg4vo',
-      url: 'https://new-deploy-vert.vercel.app/',
+      url: 'https://mc.australia-southeast1.gcp.commercetools.com/custom_project/avengers2',
     },
   },
   oAuthScopes: {
