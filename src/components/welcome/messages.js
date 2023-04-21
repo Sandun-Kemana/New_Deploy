@@ -37,11 +37,11 @@ export default defineMessages({
       'Demo example to fetch some data using GraphQL and displaying it in a paginated table.',
   },
   cardCompaniesTitle: {
-    id: 'Welcome.cardChannelsTitle',
+    id: 'Welcome.cardCompaniesTitle',
     defaultMessage: 'Companies',
   },
   cardCompaniesContent: {
-    id: 'Welcome.cardChannelsContent',
+    id: 'Welcome.cardCompaniesContent',
     defaultMessage:
       'Demo example to fetch some data using GraphQL and displaying it in a paginated table.',
   },
