@@ -108,12 +108,12 @@ const Welcome = () => {
              <InfoCard
               title={intl.formatMessage(messages.cardCompaniesTitle)}
               content={intl.formatMessage(messages.cardCompaniesContent)}
-              linkTo={`${match.url}/newcompany`}
+              linkTo={`${match.url}/companiesNavi`}
             />
             <InfoCard
               title={intl.formatMessage(messages.cardQuotesTitle)}
               content={intl.formatMessage(messages.cardQuotesContent)}
-              linkTo={`${match.url}/qForm`}
+              linkTo={`${match.url}/quotesNavi`}
             />
           </Grid>
         </Spacings.Stack>
