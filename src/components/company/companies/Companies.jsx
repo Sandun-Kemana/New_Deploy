@@ -109,7 +109,7 @@ const Companies = (props) => {
                     Delete
                   </button>
                   <Link
-                    to={`/custom_project/starter-4436ea/updatecompany/${item?.key}`}
+                    to={`/custom_project/avengers2/updatecompany/${item?.key}`}
                   >
                     {/* Update this line */}
                     <button>Update</button>

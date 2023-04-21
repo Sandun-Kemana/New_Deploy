@@ -103,7 +103,7 @@ const Quotes = (props) => {
                     Delete
                   </button>
                   <Link
-                    to={`/custom_project/starter-4436ea/updatequotes/${item?.key}`}
+                    to={`/custom_project/avengers2/updatequotes/${item?.key}`}
                   >
                     {/* Update this line */}
                     <button>Update</button>
