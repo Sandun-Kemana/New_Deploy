@@ -5,7 +5,7 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  */
 const config = {
   name: 'Starter 4436ea',
-  entryPointUriPath: 'avengers2',
+  entryPointUriPath,
   cloudIdentifier: 'gcp-au',
   env: {
     development: {
